@@ -69,3 +69,19 @@ final_score = (
     education_score * 0.1 +
     jd_similarity_score * 0.2
 )
+📈 Future Improvements
+
+🔁 Feedback loop to enhance ranking logic
+🤖 Use GPT or transformer-based models for better semantic matching
+🔒 User authentication & role-based access (HR/Admin)
+📊 Resume analytics and dashboard
+📃 License
+
+This project is open-source and available under the MIT License.
+
+👨‍💻 Author
+
+Sandeep Nehra
+GitHub: @SandeepNehra01
+
+
