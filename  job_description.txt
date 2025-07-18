@@ -1,0 +1,23 @@
+We are looking for a skilled Full Stack Developer with 2+ years of experience building web applications using the MERN stack (MongoDB, Express, React, Node.js). The ideal candidate should have a strong understanding of REST APIs, Git, and cloud deployment on AWS. Experience with CI/CD and Docker is a plus.
+
+Key Skills:
+
+JavaScript / TypeScript
+
+React.js and Redux
+
+Node.js and Express
+
+MongoDB
+
+RESTful APIs
+
+Git and GitHub
+
+AWS or any cloud platform
+
+Docker & CI/CD pipelines (optional)
+
+Education: B.Tech in Computer Science or related field preferred.
+
+// uvicorn app:app --reload --port 8000
