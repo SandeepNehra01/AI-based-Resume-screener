@@ -41,3 +41,31 @@ ai-resume-screener/
 │ └── ...
 └── README.md
 
+
+---
+
+## 🧪 How It Works
+
+1. **Upload resumes (as ZIP of PDFs/DOCX) and enter job description**.
+2. Backend:
+   - Extracts text using PyPDF2 and python-docx.
+   - Extracts relevant info: skills, experience, and education.
+   - Performs keyword matching with the job description.
+   - Computes a weighted score based on:
+     - Skill match: `50%`
+     - Experience: `20%`
+     - Education: `10%`
+     - JD similarity (TF-IDF + cosine): `20%`
+3. Returns top 20 candidates sorted by score.
+
+---
+
+## 🧠 Backend Scoring Logic
+
+```python
+final_score = (
+    skill_score * 0.5 +
+    experience_score * 0.2 +
+    education_score * 0.1 +
+    jd_similarity_score * 0.2
+)
