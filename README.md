@@ -28,4 +28,16 @@ An AI-powered Resume Screener built with **React**, **FastAPI**, **Python**, and
 ---
 
 ## 📁 Project Structure
+ai-resume-screener/
+├── backend/
+│ ├── main.py # FastAPI backend
+│ ├── requirements.txt # Python dependencies
+│ └── ...
+├── frontend/
+│ ├── src/
+│ │ ├── App.jsx
+│ │ └── components/
+│ ├── tailwind.config.js
+│ └── ...
+└── README.md
 
